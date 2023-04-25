@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header-link-container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.subheader-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    
+}
+
+.link-container {
+    display: flex;
+}
+
+img {
+    flex-shrink: 0;
+    height: 300px;
+    width: 200px;
+}
