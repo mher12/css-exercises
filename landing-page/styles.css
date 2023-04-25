@@ -3,22 +3,18 @@ body {
     flex-direction: column;
     background-color: #1f2937;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 100px;
     
 }
 
+
 .header-link-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
+    padding: 0px 100px 75px 100px;
+       
 }
-
-.subheader-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: white;
-}
-
 
 a {
     text-decoration: none;
@@ -32,12 +28,46 @@ ul {
     
 }
 
-.link-container {
+.subheader-container {
+    color: white;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    
+}
+
+.sheader-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+   
+}
+
+#header-title{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+#header-paragraph {
+    margin-top: 0;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 img {
-    flex-shrink: 0;
+    flex-grow: 5;
     height: 300px;
-    width: 200px;
+    padding: 0px 100px;
+}
+
+#heading-signUp-btn {
+    width: 100px;
+    padding: 5px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
 }
